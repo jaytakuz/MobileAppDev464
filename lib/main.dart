@@ -51,8 +51,9 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           Text("Change Calculation",
-            style: TextStyle(fontFamily: "maaja", fontSize: 48, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, color: Colors.pink
-            ),),
+            style: TextStyle(fontFamily: "maaja", fontSize: 48, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, color: Colors.pink),
+          ),
+          Image.asset("assets/CAMT-Logo.jpg", height: 240,),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: priceTextField(),

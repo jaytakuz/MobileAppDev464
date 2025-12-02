@@ -50,7 +50,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         children: [
-          Text("Hello Flutter", style: TextStyle(fontFamily: "maaja"),),
+          Text("Change Calculation",
+            style: TextStyle(fontFamily: "maaja", fontSize: 48, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, color: Colors.pink
+            ),),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: priceTextField(),

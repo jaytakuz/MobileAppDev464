@@ -51,8 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           Text("Change Calculation",
-            style: TextStyle(fontFamily: "maaja", fontSize: 48, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, color: Colors.pink),
-          ),
+            style: TextStyle(fontFamily: "maaja", fontSize: 48, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, color: Colors.blue, backgroundColor: Colors.pink),),
+          SizedBox(height: 10,),
           Image.network('https://www.muchbetteradventures.com/magazine/content/images/size/w2000/2024/04/mount-everest-at-sunset.jpg', height: 120,),
           SizedBox(height: 10,),
           Image.asset("assets/CAMT-Logo.jpg", height: 120,),

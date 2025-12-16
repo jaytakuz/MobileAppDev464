@@ -8,6 +8,12 @@ class ContactPage extends StatefulWidget {
 }
 
 class _ContactPageState extends State<ContactPage> {
+  
+  var price = TextEditingController();
+  var amount = TextEditingController();
+  var change = TextEditingController();
+  var receiveMoney = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return const Placeholder();

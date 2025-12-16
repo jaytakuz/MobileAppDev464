@@ -1,6 +1,10 @@
 # Mobile App Dev 2025
 
-Activity 4: flutter icon
+Activity 5: Bottom Navigation Bar
+<img width="1822" height="1184" alt="Screenshot 2568-12-16 at 11 01 20" src="https://github.com/user-attachments/assets/fcf4677b-9d19-4d9b-b747-8f9bef82321b" />
+
+
+Activity 4: Flutter Icon
 <img width="1822" height="1184" alt="Screenshot 2568-12-14 at 21 36 25" src="https://github.com/user-attachments/assets/66b671cd-798b-480a-9100-994dfcb14f02" />
 ## Getting Started
 

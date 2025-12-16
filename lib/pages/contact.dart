@@ -8,14 +8,29 @@ class ContactPage extends StatefulWidget {
 }
 
 class _ContactPageState extends State<ContactPage> {
-  
-  var price = TextEditingController();
-  var amount = TextEditingController();
-  var change = TextEditingController();
-  var receiveMoney = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Theme
+            .of(context)
+            .colorScheme
+            .inversePrimary,
+        title: Text("Hello Contact Page"),
+      ),
+      body: ListView(
+        children: [
+          Center(
+            child: Column(
+              children: [
+                Text("Watcharapong Wanna"),
+              Text("Email: watcharapong_wa@cmu.ac.th")
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }

@@ -20,13 +20,13 @@ class _CalculatePageState extends State<CalculatePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme
-            .of(context)
-            .colorScheme
-            .inversePrimary,
-        title: Text("Hello Calculate Page"),
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Theme
+      //       .of(context)
+      //       .colorScheme
+      //       .inversePrimary,
+      //   title: Text("Hello Calculate Page"),
+      // ),
       body: Column(
         children: [
           Text("Change Calculation",

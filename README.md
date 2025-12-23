@@ -1,5 +1,8 @@
 # Mobile App Dev 2025
 
+Activity 7.1: Second App Assignment 1
+<img width="1195" height="1184" alt="Screenshot 2568-12-23 at 10 41 18" src="https://github.com/user-attachments/assets/6437cf99-3430-4fbf-9f69-f2c8c11ae522" />
+
 Activity 5: Bottom Navigation Bar
 <img width="1822" height="1184" alt="Screenshot 2568-12-16 at 11 01 20" src="https://github.com/user-attachments/assets/fcf4677b-9d19-4d9b-b747-8f9bef82321b" />
 

@@ -1,5 +1,8 @@
 # Mobile App Dev 2025
 
+Activity 7.3 SecondApp Detailed
+<img width="965" height="1184" alt="Screenshot 2568-12-26 at 10 52 05" src="https://github.com/user-attachments/assets/fbb073b4-6a06-45cb-bb0e-244b1366b481" />
+
 Activity 7.2 SecondApp local JSON
 <img width="964" height="1184" alt="Screenshot 2568-12-26 at 10 33 15" src="https://github.com/user-attachments/assets/76e165ba-d102-4957-aea9-092c6334ccba" />
 

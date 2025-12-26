@@ -14,25 +14,38 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    body: Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: FutureBuilder(
-        builder: (context, snapshot) {
-          if (snapshot.hasData) {
-            var data = json.decode(snapshot.data.toString());
-            return ListView.builder(itemBuilder: (BuildContext context, int index) {
-              return MyBox(data[index]['title'], data[index]['subtitle'], data[index]['image_url']);
-            },
-            itemCount: data.length,);
-          }
-          return const Center(child: CircularProgressIndicator());
-        },
-        future: DefaultAssetBundle.of(context).loadString('data.json'),)
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: FutureBuilder(
+          builder: (context, snapshot) {
+            if (snapshot.hasData) {
+              var data = json.decode(snapshot.data.toString());
+              return ListView.builder(
+                itemBuilder: (BuildContext context, int index) {
+                  return MyBox(
+                    data[index]['title'],
+                    data[index]['subtitle'],
+                    data[index]['image_url'],
+                    data[index]['detail']
+                  );
+                },
+                itemCount: data.length,
+              );
+            }
+            return const Center(child: CircularProgressIndicator());
+          },
+          future: DefaultAssetBundle.of(context).loadString('data.json'),
+        ),
       ),
     );
   }
 
-  Widget MyBox(String title, String subtitle, String image_url) {
+  Widget MyBox(String title, String subtitle, String image_url, String detail) {
+    var v1, v2, v3, v4;
+    v1 = title;
+    v2 = subtitle;
+    v3 = image_url;
+    v4 = detail;
     return Container(
       margin: EdgeInsets.only(top: 20),
       padding: EdgeInsets.all(24.0),
@@ -68,7 +81,7 @@ class _HomePageState extends State<HomePage> {
               print("Next Page");
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => DetailsPage()),
+                MaterialPageRoute(builder: (context) => DetailsPage(v1,v2,v3,v4)),
               );
             },
             child: Text(
